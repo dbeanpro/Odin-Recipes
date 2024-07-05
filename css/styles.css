@@ -26,3 +26,22 @@ p, h1, h2, h3, h4, h5, h6 {
     The above standardized CSS reset was provided by Josh Comeau
     @ https://www.joshwcomeau.com/css/custom-css-reset/
 */
+
+header {
+    text-align: center;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+body {
+    background-image: url(/images/odinRecipesBg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
