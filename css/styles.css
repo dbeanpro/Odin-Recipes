@@ -8,6 +8,10 @@
 body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
+    background-image: url(../images/chef_image.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 img, picture, video, canvas, svg {
     display: block;
